@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="spinner_listener" type="id" />
+    <item name="custom_range_listener" type="id" />
+</resources>

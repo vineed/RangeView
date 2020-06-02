@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="80dp"
+    android:minHeight="30dp">
+
+    <TextView
+        android:id="@+id/tvMinus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/left_minus"
+        android:gravity="center"
+        android:maxWidth="50dp"
+        android:text="@string/minus"
+        android:textColor="@color/whitish"
+        android:textSize="@dimen/common_normal_txt_sz"
+        app:layout_constraintBottom_toBottomOf="@+id/etValue"
+        app:layout_constraintEnd_toStartOf="@+id/etValue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/etValue" />
+
+    <TextView
+        android:id="@+id/tvPlus"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/right_minus"
+        android:gravity="center"
+        android:text="@string/plus"
+        android:textColor="@color/whitish"
+        android:textSize="@dimen/common_normal_txt_sz"
+        app:layout_constraintBottom_toBottomOf="@+id/etValue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="3"
+        app:layout_constraintStart_toEndOf="@+id/etValue"
+        app:layout_constraintTop_toTopOf="@+id/etValue" />
+
+    <EditText
+        android:id="@+id/etValue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/range_et"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:padding="@dimen/range_value_pad"
+        android:selectAllOnFocus="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/common_normal_txt_sz"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tvPlus"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_weight="4"
+        app:layout_constraintStart_toEndOf="@+id/tvMinus"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="100" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,3 @@
+include ':rangeview'
+include ':app'
+rootProject.name = "RangeViewDemo"

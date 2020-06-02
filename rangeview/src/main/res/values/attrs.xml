@@ -1,0 +1,11 @@
+<resources>
+    <declare-styleable name="CustomRangeView">
+        <attr name="minRange" format="integer" />
+        <attr name="maxRange" format="integer" />
+        <attr name="range" format="integer"/>
+        <!--<attr name="labelPosition" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>-->
+    </declare-styleable>
+</resources>

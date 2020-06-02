@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D9D9D9</color>
+    <color name="colorPrimaryDark">@color/darkGreyish</color>
+    <color name="colorAccent">#BA000D</color>
+    <color name="darkColorAccent">#8B000B</color>
+    <color name="redish">#F8636E</color>
+
+    <color name="common_label_color">@color/colorAccent</color>
+    <color name="common_flat_button_color">@color/colorAccent</color>
+    <color name="greyish">#646363</color>
+    <color name="moreGreyish">#707070</color>
+    <color name="darkGreyish">#494949</color>
+    <color name="ultimateGreyish">#2E2E2E</color>
+
+
+    <color name="progress_overlay">#CD222222</color>
+    <color name="login_panel_overlay">#E0E0E0</color>
+    <color name="progress_title">#BDBDBD</color>
+    <color name="bg_splash">#FAF</color>
+    <color name="profile_name_background">#CE4B54</color>
+    <color name="default_background">#FAFAFA</color>
+
+    <color name="test">@color/colorPrimary</color>
+    <color name="test2">@color/colorPrimary</color>
+    <color name="common_tx">@android:color/white</color>
+    <color name="toolbarTxt">@color/greyish</color>
+    <color name="background">@color/colorAccent</color>
+    <color name="profile_text">@color/colorAccent</color>
+    <color name="common_background">@color/colorPrimary</color>
+    <color name="login_button">@android:color/white</color>
+    <color name="branch_code_button">@android:color/white</color>
+    <color name="or_textview">@color/greyish</color>
+    <color name="container_bg">#F9F9F9</color>
+    <color name="callupdatedetails_text">@color/colorAccent</color>
+    <color name="etrupdatedetails_text">@color/colorAccent</color>
+    <color name="blackish">#90000000</color>
+    <color name="scanner_error_text">@color/colorAccent</color>
+    <color name="whitish">#F5F5F5</color>
+    <color name="whitish_trans_60">#99F5F5F5</color>
+    <color name="whitish_widget">#EFEFEF</color>
+    <color name="dialog_background">#F9F9F9</color>
+    <color name="fab_button_background">@color/darkGreyish</color>
+    <color name="fab_button_image">@color/colorAccent</color>
+    <color name="more_details_background">@color/darkGreyish</color>
+    <color name="light_gray">#D5D5D5</color>
+
+
+</resources>
