@@ -29,7 +29,7 @@ Simply add rangeview module into your project and you can use CustomRangeView in
 ```
 ## Screen
 
-![alt RangeView Screenshot](demo_img/range_view_img.jpeg)
+![alt RangeView Screenshot](demo_img/range_view_img.jpeg =250x)
 
 ## License
 
