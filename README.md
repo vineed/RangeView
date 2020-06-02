@@ -1,6 +1,6 @@
 # RangeView
 
-Simple Numeric Range widget
+Simple Number Picker widget
 
 ## Getting Started
 
